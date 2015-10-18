@@ -4,31 +4,37 @@
     margin-right: auto;
 }
 
-
-
 .menulist {
     display: center;
     text-align: center;
     margin: 75px;
     padding: 10px;
 }
+
+.menulist a{
+    color:#0000FF;
+    text-decoration: none;
+    padding: 13px; 
+}
+
 .menulist li {
     display: inline; /* Отображать как строчный элемент */
     list-style:none;
     border:3px solid #0000FF;
-    margin:15px;
+    margin:5px;
     padding:10px;
+    color: #000000;
 }
 
-.btn:hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-   }
-.btn:active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }
+.menulist li:hover, .menulist li a:hover {
+   background: #0000FF;
+   color: #FFFFFF;
+}
+
+.menulist li a:active {
+   background: #0000FF;
+   color: #FFFFFF;
+}
 
 .regsys {
    display: center;
@@ -38,45 +44,27 @@
    font-style:normal;
    font-size: 20px;
 }
+
 .regsys li {
   list-style:none;
   display: inline-block;
   text-align:center;
-  border:3px solid #0000FF;
-  
+  border:3px solid #0000FF;  
 }
 
-.auth{
-
+.auth p, .auth h1{
+  font-family:'Roboto';
+  color: #0000FF; 
 }
-  
 
-.hr { 
-	width:90%;
- 	margin:10px;
-	border:none; 
-	height:1px; 
-	background:#ccc; }
-
-.text p {
-	font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
-	border: 1px solid #ccc;
-	border-radius: 25px;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
+.login, .pass{
+  border: 0.5px solid #0000FF
 }
 
 .modules {
         display: flex;
         justify-content: center;
-        text-align: center;
-        
+        text-align: center;       
 }
 
 footer {
@@ -86,62 +74,21 @@ footer {
 	background: #65a9d7;
 	margin-top:20px;
 }
+
 .footer_date {
 	text-align: left;
 }
+
 .footer_name {
 	text-align: right;
 	padding-bottom: 10px;
-}
--------------------------------------------------------------------
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
 }
 
 body {
   line-height: 1;
 }
 
-ol, ul {
-  list-style: none;
-}
 
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 
 
