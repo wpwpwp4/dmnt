@@ -14,19 +14,21 @@
 .menulist a{
     color:#0000FF;
     text-decoration: none;
-    padding: 13px; 
+    margin: 0px;
+    padding: 10px 20px; 
+    border:3px solid #0000FF;
 }
 
 .menulist li {
     display: inline; /* Отображать как строчный элемент */
     list-style:none;
-    border:3px solid #0000FF;
-    margin:5px;
-    padding:10px;
+    
+    margin:0px;
+    padding:5px;
     color: #000000;
 }
 
-.menulist li:hover, .menulist li a:hover {
+.menulist li a:hover {
    background: #0000FF;
    color: #FFFFFF;
 }
@@ -36,30 +38,6 @@
    color: #FFFFFF;
 }
 
-.regsys {
-   display: center;
-   list-style:none;
-   text-align:center;
-   font-family: 'Roboto';
-   font-style:normal;
-   font-size: 20px;
-}
-
-.regsys li {
-  list-style:none;
-  display: inline-block;
-  text-align:center;
-  border:3px solid #0000FF;  
-}
-
-.auth p, .auth h1{
-  font-family:'Roboto';
-  color: #0000FF; 
-}
-
-.login, .pass{
-  border: 0.5px solid #0000FF
-}
 
 .modules {
         display: flex;
@@ -84,9 +62,6 @@ footer {
 	padding-bottom: 10px;
 }
 
-body {
-  line-height: 1;
-}
 
 
 
